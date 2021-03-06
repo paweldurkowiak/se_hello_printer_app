@@ -1,8 +1,8 @@
-. PHONY: test
+.PHONY: test
 
 deps :
-	pip install -r requiestments.txt; \
-	pip install -r test_requirements.plain_text
+	pip install -r requirements.txt; \
+	pip install -r test_requirements.txt
 
 lint:
 	flake8 helloworld test
